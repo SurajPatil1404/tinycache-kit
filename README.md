@@ -513,4 +513,4 @@ npm run test:coverage
 
 This project is licensed under the terms of the [MIT License](./LICENSE).
 
-Copyright (c) 2026 Taranveer Singh.
+Copyright (c) 2026 Suraj Patil.

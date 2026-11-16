@@ -40,14 +40,14 @@
     "singleflight",
     "dogpile-prevention"
   ],
-  "author": "Taranveer Singh <maintainer@example.com>",
+  "author": "Suraj Patil",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/taranveersingh/tinycache-kit.git"
+    "url": "git+https://github.com/SurajPatil1404/tinycache-kit.git"
   },
   "bugs": {
-    "url": "https://github.com/taranveersingh/tinycache-kit/issues"
+    "url": "https://github.com/SurajPatil1404/tinycache-kit/issues"
   },
-  "homepage": "https://github.com/taranveersingh/tinycache-kit#readme"
+  "homepage": "https://github.com/SurajPatil1404/tinycache-kit#readme"
 }
