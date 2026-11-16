@@ -1,0 +1,8 @@
+tests/
+examples/
+.github/
+.gitignore
+.npmignore
+coverage/
+*.tgz
+.DS_Store

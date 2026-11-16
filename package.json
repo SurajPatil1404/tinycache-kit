@@ -1,0 +1,53 @@
+{
+  "name": "tinycache-kit",
+  "version": "1.0.0",
+  "description": "A lightweight, zero-dependency in-memory caching library for Node.js applications with TTL expiration, LRU eviction, cache statistics and Express middleware.",
+  "main": "./src/index.js",
+  "module": "./src/index.mjs",
+  "types": "./types/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./types/index.d.ts",
+      "import": "./src/index.mjs",
+      "require": "./src/index.js"
+    },
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "src",
+    "types",
+    "README.md",
+    "LICENSE",
+    "CHANGELOG.md"
+  ],
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "scripts": {
+    "test": "node --test tests/*.test.js tests/**/*.test.js",
+    "test:coverage": "node --test --experimental-test-coverage tests/*.test.js tests/**/*.test.js"
+  },
+  "keywords": [
+    "cache",
+    "in-memory",
+    "lru",
+    "ttl",
+    "caching",
+    "express",
+    "middleware",
+    "performance",
+    "zero-dependency",
+    "singleflight",
+    "dogpile-prevention"
+  ],
+  "author": "Taranveer Singh <maintainer@example.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/taranveersingh/tinycache-kit.git"
+  },
+  "bugs": {
+    "url": "https://github.com/taranveersingh/tinycache-kit/issues"
+  },
+  "homepage": "https://github.com/taranveersingh/tinycache-kit#readme"
+}
